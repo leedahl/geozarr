@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:hsterms="https://www.hydroshare.org/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+>
+  <hsterms:MultidimensionalAggregation rdf:about="http://www.hydroshare.org/resource/08b0cb676d1e4395b9fb7faf6271f5bc/data/contents/SWE_time/SWE_time_resmap.xml#aggregation">
+    <dc:rights>
+      <rdf:Description>
+        <hsterms:rightsStatement>This resource is shared under the Creative Commons Attribution CC BY.</hsterms:rightsStatement>
+        <hsterms:URL rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+      </rdf:Description>
+    </dc:rights>
+    <dc:title>UEB model simulation of snow water equivalent in Logan River watershed from 2008 to 2009asdfasdf</dc:title>
+    <dc:subject> UEB</dc:subject>
+    <dc:type rdf:resource="https://www.hydroshare.org/terms/MultidimensionalAggregation"/>
+    <hsterms:Variable>
+      <rdf:Description>
+        <hsterms:descriptive_name>y coordinate of projection</hsterms:descriptive_name>
+        <hsterms:name>y</hsterms:name>
+        <hsterms:type>Float</hsterms:type>
+        <hsterms:shape>y</hsterms:shape>
+        <hsterms:unit>m</hsterms:unit>
+      </rdf:Description>
+    </hsterms:Variable>
+    <dc:subject>asdfdf</dc:subject>
+    <hsterms:Variable>
+      <rdf:Description>
+        <hsterms:descriptive_name>time</hsterms:descriptive_name>
+        <hsterms:unit>hours since 2008-10-1 0:0:00 UTC</hsterms:unit>
+        <hsterms:type>Float</hsterms:type>
+        <hsterms:name>time</hsterms:name>
+        <hsterms:shape>time</hsterms:shape>
+      </rdf:Description>
+    </hsterms:Variable>
+    <dc:subject> Logan River</dc:subject>
+    <dc:coverage>
+      <dcterms:period>
+        <rdf:value>start=2008-10-15T00:00:00; end=2009-06-30T00:00:00</rdf:value>
+      </dcterms:period>
+    </dc:coverage>
+    <hsterms:Variable>
+      <rdf:Description>
+        <hsterms:unit>m</hsterms:unit>
+        <hsterms:type>Float</hsterms:type>
+        <hsterms:descriptive_name>x coordinate of projection</hsterms:descriptive_name>
+        <hsterms:name>x</hsterms:name>
+        <hsterms:shape>x</hsterms:shape>
+      </rdf:Description>
+    </hsterms:Variable>
+    <hsterms:Variable>
+      <rdf:Description>
+        <hsterms:type>Float</hsterms:type>
+        <hsterms:descriptive_name>Snow water equivalent </hsterms:descriptive_name>
+        <hsterms:name>SWE</hsterms:name>
+        <hsterms:shape>time,y,x</hsterms:shape>
+        <hsterms:unit>m</hsterms:unit>
+      </rdf:Description>
+    </hsterms:Variable>
+    <dc:language>eng</dc:language>
+    <hsterms:Variable>
+      <rdf:Description>
+        <hsterms:name>transverse_mercator</hsterms:name>
+        <hsterms:unit>Unknown</hsterms:unit>
+        <hsterms:type>Unknown</hsterms:type>
+        <hsterms:shape>Not defined</hsterms:shape>
+      </rdf:Description>
+    </hsterms:Variable>
+    <dc:subject>Snow water equivalent</dc:subject>
+    <dc:coverage>
+      <dcterms:box>
+        <rdf:value>northlimit=42.11; projection=WGS 84 EPSG:4326; units=Decimal degrees; southlimit=41.7032378819; eastlimit=-111.428227139; westlimit=-111.798772614</rdf:value>
+      </dcterms:box>
+    </dc:coverage>
+    <hsterms:spatialReference>
+      <dcterms:box>
+        <rdf:value>northlimit=4663316.5; projection_name=NAD83 / UTM zone 12N; units=Meter; southlimit=4616916.5; eastlimit=464370.9; westlimit=433970.9; datum=North_American_Datum_1983; projection_string=PROJCS["NAD83 / UTM zone 12N",GEOGCS["NAD83",DATUM["North_American_Datum_1983",SPHEROID["GRS 1980",6378137,298.2572221010002,AUTHORITY["EPSG","7019"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6269"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433],AUTHORITY["EPSG","4269"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-111],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AUTHORITY["EPSG","26912"]]; projection_string_type=WKT String</rdf:value>
+      </dcterms:box>
+    </hsterms:spatialReference>
+  </hsterms:MultidimensionalAggregation>
+  <rdf:Description rdf:about="http://www.hydroshare.org/terms/MultidimensionalAggregation">
+    <rdfs:label>Multidimensional Content: A multidimensional dataset represented by a NetCDF file (.nc) and text file giving its NetCDF header content</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://www.hydroshare.org/terms/"/>
+  </rdf:Description>
+</rdf:RDF>
